@@ -1,0 +1,13 @@
+<div class="header-image">
+  <img src="../../assets/lolo.png" alt="Pokemon">
+</div>
+
+<div class="pokemon-container">
+  <div *ngFor="let pokemon of pokemons" class="pokemon-card" [ngClass]="getPokemonTypeClass(pokemon)">
+    <h2>{{ pokemon.name | titlecase }}</h2>
+    <img [src]="pokemon.sprites.front_default" alt="{{ pokemon.name }}">
+    <p>Altura: {{ convertHeightToMeters(pokemon.height) }} m</p> <!-- "Altura" en metros -->
+    <p>Peso: {{ convertWeightToKg(pokemon.weight) }} kg</p>  <!-- "Peso" en kilogramos -->
+    <p>Tipo: {{ getTranslatedType(pokemon.types[0].type.name) }}</p>  <!-- Traducción del tipo -->
+  </div>
+</div>

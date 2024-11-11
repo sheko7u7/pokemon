@@ -1,0 +1,115 @@
+.pokemon-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(173, 216, 230);
+  padding: 20px;
+}
+
+.pokemon-card {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.pokemon-card img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.header-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(173, 216, 230);
+  padding: 20px;
+}
+
+.header-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pokemon-card {
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilos para los tipos de Pokémon */
+.fire-type {
+  background-color: #F5AC78;  /* Fuego */
+  color: #fff;
+}
+
+.water-type {
+  background-color: #9DB7F5;  /* Agua */
+  color: #fff;
+}
+
+.grass-type {
+  background-color: #9af36d;  /* Planta */
+  color: #fff;
+}
+
+.poison-type {
+  background-color: #A040A0;  /* Veneno */
+  color: #fff;
+}
+
+.electric-type {
+  background-color: #FAE078;  /* Eléctrico */
+  color: #000;
+}
+
+.bug-type {
+  background-color: #b5f1b9;  /* Bicho */
+  color: #000;
+}
+
+.fairy-type {
+  background-color: #F4BDC9;  /* Hada */
+  color: #000;
+}
+
+.fighting-type {
+  background-color: #E6B7A3;  /* Lucha */
+  color: #000;
+}
+
+.psychic-type {
+  background-color: #F7C7D4;  /* Psíquico */
+  color: #000;
+}
+
+.rock-type {
+  background-color: #D5D5D4;  /* Roca */
+  color: #000;
+}
+
+.ghost-type {
+  background-color: #C6A9D8;  /* Fantasma */
+  color: #000;
+}
+
+.ground-type {
+  background-color: #EBD69D;  /* Tierra */
+  color: #000;
+}
+
+/* Clase por defecto */
+.default-type {
+  background-color: #E0E0E0;
+  color: #000;
+}
